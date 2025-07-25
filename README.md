@@ -1,1 +1,1 @@
-# crypto-pipeline-dashboard
+# Real-Time Crypto Price Tracker & Trend Analyzer
