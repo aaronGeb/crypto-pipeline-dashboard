@@ -1,0 +1,16 @@
+[project]
+name = "crypto-data-pipeline"
+version = "0.1.0"
+description = "Crypto price data pipeline with Airflow, DBT, and Power BI"
+authors = ["Aaron Gebremariam <aarongebremariam.94@gmail.com>"]
+dependencies = [
+    "apache-airflow==2.9.1",
+    "requests",
+    "psycopg2-binary",
+    "dbt-postgres",
+    "pandas",
+    "sqlalchemy"
+]
+
+[tool.uv]
+virtualenv = ".venv"
