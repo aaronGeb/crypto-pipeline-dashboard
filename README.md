@@ -53,12 +53,12 @@ Copy
 Edit
 ```
 crypto-data-pipeline/
-├── dags/                    
-├── dbt_crypto/              
-│   ├── models/              
-├── scripts/                 
-├── dashboard/               
-├── database/schema.sql      
-├── pyproject.toml   
+├── dags/
+├── dbt_crypto/
+│   ├── models/
+├── scripts/
+├── dashboard/
+├── database/schema.sql
+├── pyproject.toml
 └── README.md
 ```
