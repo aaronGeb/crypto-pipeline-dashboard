@@ -1,0 +1,26 @@
+repos:
+  # Code Formatter
+  - repo: https://github.com/psf/black
+    rev: 23.11.0
+    hooks:
+      - id: black
+
+  # Import Sorting
+  - repo: https://github.com/pre-commit/mirrors-isort
+    rev: v5.9.3
+    hooks:
+      - id: isort
+
+  # Linting
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.12.5
+    hooks:
+      - id: ruff
+
+  # Basic code hygiene
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0
+    hooks:
+      - id: check-merge-conflict
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
