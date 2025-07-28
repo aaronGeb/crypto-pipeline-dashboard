@@ -9,7 +9,8 @@ dependencies = [
     "psycopg2-binary",
     "dbt-postgres",
     "pandas",
-    "sqlalchemy"
+    "sqlalchemy",
+    "python-dotenv"
 ]
 
 [tool.uv]
